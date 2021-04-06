@@ -1,4 +1,4 @@
-                // WAP to check that the entered number is Palindrome or not.
+                               // WAP to check that the entered number is Palindrome or not.
 #include<iostream>
 using namespace std;
 
