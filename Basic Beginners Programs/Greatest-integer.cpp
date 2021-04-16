@@ -1,5 +1,5 @@
                     // Program to find Greatest of 3-integers
-#include<iostream>
+#include<iostream> 
 using namespace std;
 
 int main()
@@ -27,6 +27,10 @@ int main()
     {
         cout << "\nNumber-3 is Greatest" << endl;
     }
+    else if(n1 == n2 && n2 == n3)
+    {
+        cout << "\nNumber-1 Number-2 & Number-3 are equal" << endl;
+    }
     else if(n1 == n2 || n2 == n1)
     {
         cout << "\nNumber-1 & Number-2 are equal" << endl;
@@ -39,4 +43,5 @@ int main()
     {
         cout << "\nNumber-1 & Number-3 are equal" << endl;
     }
+   
 }
